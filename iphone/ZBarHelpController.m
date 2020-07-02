@@ -84,7 +84,7 @@
     view.autoresizingMask = (UIViewAutoresizingFlexibleWidth |
                              UIViewAutoresizingFlexibleHeight);
 
-    webView = [[UIWebView alloc]
+    webView = [[WKWebView alloc]
                   initWithFrame: CGRectMake(0, 0,
                                             bounds.size.width,
                                             bounds.size.height - 44)];
